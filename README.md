@@ -1,4 +1,5 @@
 # Face Matching Application
+[![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 
 ## Overview
 This is a face-matching application that allows users to upload photos and find matches within a collection using AWS Rekognition. The system enables two types of users:

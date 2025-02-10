@@ -1,5 +1,8 @@
 # Face Matching Application
-[![Watch the video](https://ibb.co/rRnMpJ2t)](https://www.youtube.com/watch?v=pcOxdVQ2uwo)
+[![Watch the video]([https://ibb.co/rRnMpJ2t](https://github.com/user-attachments/assets/3fddb27d-cd74-4081-a106-af71bbae5afd))](https://www.youtube.com/watch?v=pcOxdVQ2uwo)
+![image](https://github.com/user-attachments/assets/a1f1756e-d1cf-4fb1-943e-dc4507d1d2b9)
+
+![image](https://github.com/user-attachments/assets/3fddb27d-cd74-4081-a106-af71bbae5afd)
 
 ## Overview
 This is a face-matching application that allows users to upload photos and find matches within a collection using AWS Rekognition. The system enables two types of users:

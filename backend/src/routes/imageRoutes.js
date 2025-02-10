@@ -1,17 +1,4 @@
-// import express from "express";
-// import upload from "../middlewares/multer.js"; // Multer for file handling
-// import { uploadDump } from "../controllers/imageController.js";
 
-// const router = express.Router();
-
-// // Route for first person to upload group photos
-
-// router.post("/upload-dump", upload.array("images", 10), (req, res) => {
-//     console.log("POST /upload-dump hit");
-//     uploadDump(req, res);
-// });
-
-// export default router;
 import express from "express";
 import upload from "../middlewares/multer.js"; // Multer for file handling
 import { uploadDump } from "../controllers/imageController.js";

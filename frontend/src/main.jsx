@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Register from './pages/register';
+import Register from './pages/Register';
 import LandingPage from './pages/LandingPage';
 import UploadDump from './pages/UploadDump';
 import FaceUpload from './pages/FaceUpload';

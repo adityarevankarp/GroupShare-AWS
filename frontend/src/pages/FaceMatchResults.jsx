@@ -18,7 +18,7 @@ const FaceMatchResults = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/images/match-face', {
+      const response = await fetch('https://groupshare-aws-1.onrender.com/api/images/match-face', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

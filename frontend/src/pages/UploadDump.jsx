@@ -31,7 +31,7 @@ const ImageUpload = () => {
     });
 
     try {
-      const response = await fetch('http://localhost:5000/api/images/upload-dump', {
+      const response = await fetch('https://groupshare-aws-1.onrender.com/api/images/upload-dump', {
         method: 'POST',
         body: formData,
       });

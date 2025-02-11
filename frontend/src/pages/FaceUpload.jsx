@@ -46,7 +46,7 @@ const FaceUpload = () => {
     formData.append('image', file);
 
     try {
-      const response = await fetch('http://localhost:5000/api/images/upload-face', {
+      const response = await fetch('https://groupshare-aws-1.onrender.com/api/images/upload-face', {
         method: 'POST',
         body: formData,
       });

@@ -24,7 +24,7 @@ const Register = () => {
         setSuccess(false);
 
         try {
-            const response = await axios.post("http://localhost:5000/api/users/register", { email });
+            const response = await axios.post("https://groupshare-aws-1.onrender.com/api/users/register", { email });
 
             const { userId, groupKey } = response.data.user;
             localStorage.setItem("groupKey", groupKey);
